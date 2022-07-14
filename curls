@@ -1,0 +1,15 @@
+curl --location --request POST "localhost:8545" --header "Content-Type: application/json" --data-raw "{    \"jsonrpc\": \"2.0\",\"id\": 1,\"method\": \"admin_peers\",\"params\": []}"
+
+curl --location --request POST "localhost:8545" --header "Content-Type: application/json" --data-raw "{    \"jsonrpc\": \"2.0\",\"id\": 2,\"method\": \"eth_blockNumber\",\"params\": []}"
+
+curl --location --request POST "localhost:8545" --header "Content-Type: application/json" --data-raw "{    \"jsonrpc\": \"2.0\",\"id\": 3,\"method\": \"eth_accounts\",\"params\": []}"
+
+curl --location --request POST "localhost:8545" --header "Content-Type: application/json" --data-raw "{    \"jsonrpc\": \"2.0\",\"id\": 4,\"method\": \"eth_getBalance\",\"params\": [\"0x65d5e56aa3968522243aff7c00d7fdd977616679\",\"latest\"]}"
+
+curl --location --request POST "localhost:8545" --header "Content-Type: application/json" --data-raw "{    \"jsonrpc\": \"2.0\",\"id\": 5,\"method\": \"personal_unlockAccount\",\"params\": [\"0x65d5e56aa3968522243aff7c00d7fdd977616679\",\"5uper53cr3t\"]}"
+
+curl --location --request POST "localhost:8545" --header "Content-Type: application/json" --data-raw "{    \"jsonrpc\": \"2.0\",\"id\": 5,\"method\": \"personal_newAccount\",\"params\": [\"5uper53cr3t\"]}"
+
+
+curl --location --request POST "localhost:8545" --header "Content-Type: application/json" --data-raw "{    \"jsonrpc\": \"2.0\",\"id\": 3,\"method\": \"eth_accounts\",\"params\": []}"
+curl --location --request POST "localhost:8545" --header "Content-Type: application/json" --data-raw "{    \"jsonrpc\": \"2.0\",\"id\": 4,\"method\": \"eth_getBalance\",\"params\": [\"0x7f59117e9404a9bcfc82b722e163548ff714f01d\",\"latest\"]}"
