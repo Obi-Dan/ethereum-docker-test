@@ -18,4 +18,4 @@ curl --location --request POST "localhost:8545" --header "Content-Type: applicat
 
 
 
-"enode://af22c29c316ad069cf48a09a4ad5cf04a251b411e45098888d114c6dd7f489a13786620d5953738762afa13711d4ffb3b19aa5de772d8af72f851f7e9c5b164a@10.0.0.26:3128"
+enode://60ce5b600eebda1ea789f2119847218dfeb0a1b3ad7ee6f4dba10a5a66a01d00e2f9e5d40ed57b96e07e654bc5ea70ab54f2fcfb2cd7bde989cebb834e010109@127.0.0.1:30303
