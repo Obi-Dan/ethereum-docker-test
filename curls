@@ -18,4 +18,8 @@ curl --location --request POST "localhost:8545" --header "Content-Type: applicat
 
 
 
-enode://60ce5b600eebda1ea789f2119847218dfeb0a1b3ad7ee6f4dba10a5a66a01d00e2f9e5d40ed57b96e07e654bc5ea70ab54f2fcfb2cd7bde989cebb834e010109@127.0.0.1:30303
+enode://2f5ec9dca34f2bb4bebfadd686155c6602dfb9565957390b131d0e218392a4be458e4d98109a8fa4af86095b03a5e5fe1b66b31f0a1f8a2f123f0e89331ba31e@10.0.0.26:30303
+
+netsh advfirewall firewall add rule name="ALLOW TCP PORT 30303" dir=in action=allow protocol=TCP localport=30303
+netsh advfirewall firewall add rule name="ALLOW TCP PORT 8545" dir=in action=allow protocol=TCP localport=8545
+netsh advfirewall firewall add rule name="ALLOW TCP PORT 8546" dir=in action=allow protocol=TCP localport=8546
